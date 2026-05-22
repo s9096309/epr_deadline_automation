@@ -25,7 +25,7 @@ This script simulates a daily automated process (designed to run via cron at 05:
 To get started, clone this repository to your local machine and navigate into the project directory:
 
 ```bash
-git clone [https://github.com/s9096309/epr_deadline_automation.git](https://github.com/s9096309/epr_deadline_automation.git)
+git clone https://github.com/s9096309/epr_deadline_automation.git
 ```
 ```bash
 cd epr_deadline_automation
