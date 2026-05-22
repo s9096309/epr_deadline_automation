@@ -20,8 +20,36 @@ This script simulates a daily automated process (designed to run via cron at 05:
 
 ## 💻 Usage
 
-To run the simulation, simply execute the main script from your terminal:
+**1. Clone the Repository**
 
+To get started, clone this repository to your local machine and navigate into the project directory:
+
+```bash
+git clone [https://github.com/s9096309/epr_deadline_automation.git](https://github.com/s9096309/epr_deadline_automation.git)
+```
+```bash
+cd epr_deadline_automation
+```
+**2. Environment Setup**
+
+This prototype relies strictly on Python's Standard Library (sqlite3, datetime), meaning there are no external dependencies to install.
+
+However, if you prefer running it in an isolated environment, you can set up a virtual environment:
+
+```Bash
+# Create a virtual environment
+python -m venv .venv
+```
+```bash
+# Activate the virtual environment (Mac/Linux)
+source .venv/bin/activate
+```
+```bash
+# Activate the virtual environment (Windows)
+.venv\Scripts\activate
+```
+**3. Run the Simulation**
+Execute the main script from your terminal to trigger the daily cron job simulation:
 ```bash
 python main.py
 ```
